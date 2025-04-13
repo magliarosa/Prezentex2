@@ -24,7 +24,7 @@ Aplikacja Prezentex musi umożliwiać:
 - Przypisywanie pomysłów na prezenty do konkretnych osób (zarówno podczas dodawania, jak i edycji wpisów);
 - Przeglądanie, edycję i usuwanie danych (osób, prezentów, przypisań);
 - Utrzymanie jednolitego stylu modalnych okien (spójna kolorystyka, układ przycisków);
-- Implementację systemu kont użytkowników z funkcjami rejestracji, logowania i autoryzacji, w tym logowania przez konto Google.
+- Implementację systemu kont użytkowników z funkcjami rejestracji, logowania i autoryzacji, w tym logowania przez konto Google (w tym row-level security).
 
 ## 4. Granice produktu
 W ramach MVP nie będą implementowane:
