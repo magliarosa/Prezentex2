@@ -1,0 +1,47 @@
+<conversation_summary>
+<decisions>
+1. Główny problem polega na obawie przed zakupem nietrafionego prezentu, wynikającej z kupowania prezentów na ostatnią chwilę oraz braku przygotowanych pomysłów.
+2. W MVP skupiamy się na podstawowych funkcjonalnościach: dodawanie osób, dodawanie prezentów, przypisywanie prezentów do osób oraz system kont użytkowników, w tym rejestracja/logowanie poprzez konto Google.
+3. Wszystkie modalne okna muszą mieć jednolity styl, obejmujący spójne tło, kolory oraz rozmieszczenie przycisków na dole.
+4. Skuteczność aplikacji będzie monitorowana przez analizę danych wprowadzonych przez użytkowników do bazy danych, mierząc procent osób z przypisanym prezentem.
+5. Nie przewidujemy implementacji systemu przypomnień, notyfikacji, filtrowania ani mechanizmu feedbacku wewnątrz aplikacji w wersji MVP.
+6. Proces wdrożenia MVP opiera się na prostych operacjach CRUD, z danymi przechowywanymi w bazie z możliwością migracji.
+</decisions>
+
+<matched_recommendations>
+1. Dokładny opis problemu: obawa przed nietrafionym prezentem wynikająca z pośpiechu i braku przygotowanych pomysłów.
+2. Priorytetyzacja kluczowych funkcjonalności MVP takich jak dodawanie osób, prezentów oraz przypisywanie prezentów.
+3. Określenie monitorowania wskaźnika sukcesu na podstawie analizy danych z bazy danych.
+4. Ujednolicenie interfejsu użytkownika (modalne okna) w celu zapewnienia intuicyjnego i spójnego doświadczenia.
+5. Wyodrębnienie ograniczeń MVP, czyli wykluczenie niektórych funkcjonalności (przypomnienia, notyfikacje, filtrowanie, feedback w aplikacji).
+6. Włączenie minimalnego systemu kont użytkowników z autoryzacją poprzez konto Google.
+</matched_recommendations>
+
+<prd_planning_summary>
+Produkt MVP "Prezentex" ma na celu rozwianie stresu przy zakupie prezentów przez zapewnienie centralnego miejsca, gdzie użytkownik może zapisywać i przypisywać pomysły na prezenty. Główne wymagania funkcjonalne obejmują:
+- Dodawanie osób oraz prezentów,
+- Przypisywanie prezentów do konkretnych osób,
+- System kont użytkowników umożliwiający rejestrację i logowanie (w tym przez konto Google).
+
+Kluczowe historie użytkownika i ścieżki korzystania to:
+- Scenariusz 1: Dodanie pomysłu na prezent poprzez kliknięcie przycisku "+" na widoku "Prezenty" i otwarcie modala.
+- Scenariusz 2: Dodanie osoby poprzez kliknięcie przycisku "+" na widoku "Osoby" oraz ewentualne przypisanie prezentu.
+- Scenariusz 3: Dodanie prezentu bezpośrednio z widoku konkretnej osoby przez przycisk "+" na liście prezentów osoby i automatyczne przypisanie.
+
+Kryteria sukcesu będą mierzone na podstawie procentu osób, które mają przypisany prezent, co zostanie zweryfikowane przez analizę danych wprowadzonych przez użytkowników do bazy danych.
+
+Ważne aspekty UI/UX:
+- Interfejs ma być intuicyjny i prosty, z minimalną liczbą kroków potrzebnych do wykonania podstawowych operacji.
+- Wszystkie modalne okna mają mieć jednolity styl, co zapewni spójność doświadczenia użytkownika.
+
+Ograniczenia MVP:
+- Brak systemu przypomnień i notyfikacji,
+- Brak filtrowania oraz mechanizmu feedbacku wewnątrz aplikacji (feedback będzie zbierany poza aplikacją),
+- Skupienie na funkcjonalnościach niezbędnych do MVP bez dodatkowych rozbudowanych opcji.
+
+Aspekty techniczne:
+- Dane użytkowników będą przechowywane w bazie i możliwa będzie ich migracja w przyszłości,
+- System kont użytkowników obejmuje autoryzację przez Google.
+</prd_planning_summary>
+
+</conversation_summary>
