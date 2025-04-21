@@ -1,11 +1,16 @@
 ---
 description: 
 globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
 alwaysApply: true
 ---
-# AI Rules for {app-name}
+# AI Rules for Prezentex
 
-{project-description}
+Prezentex streamlines gift planning by consolidating gift ideas and recipient details in one intuitive app.
 
 ## Tech Stack
 

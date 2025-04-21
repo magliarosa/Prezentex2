@@ -1,94 +1,82 @@
-# 10x Astro Starter
+# Prezentex
 
-A modern, opinionated starter template for building fast, accessible, and AI-friendly web applications.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Node Version](https://img.shields.io/badge/Node-22.14.0-blue.svg)](https://nodejs.org/)
+
+## Table of Contents
+- [Prezentex](#prezentex)
+  - [Table of Contents](#table-of-contents)
+  - [Project Description](#project-description)
+  - [Tech Stack](#tech-stack)
+  - [Getting Started Locally](#getting-started-locally)
+  - [Available Scripts](#available-scripts)
+  - [Project Scope](#project-scope)
+  - [Project Status](#project-status)
+  - [License](#license)
+
+## Project Description
+Prezentex is a centralized web application designed to ease the stress of gift shopping by providing a platform to organize both gift ideas and recipient information. With an intuitive interface and streamlined workflows, users can efficiently manage gift ideas, assign them to specific recipients, and keep track of their choices.
 
 ## Tech Stack
+**Frontend:**
+- A combination of [Astro 5](https://astro.build) and [React](https://reactjs.org) to develop fast, efficient web pages with interactive components.
+- **TypeScript 5** for static typing and enhanced development experience.
+- **Tailwind CSS 4** for styling.
+- **Shadcn/ui** for accessible, ready-to-use React components.
 
-- [Astro](https://astro.build/) v5.5.5 - Modern web framework for building fast, content-focused websites
-- [React](https://react.dev/) v19.0.0 - UI library for building interactive components
-- [TypeScript](https://www.typescriptlang.org/) v5 - Type-safe JavaScript
-- [Tailwind CSS](https://tailwindcss.com/) v4.0.17 - Utility-first CSS framework
+**Backend:**
+- **Supabase:** Provides a hosted PostgreSQL database along with integrated authentication services, handling data storage and user management.
 
-## Prerequisites
+**CI/CD & Hosting:**
+- **GitHub Actions** for continuous integration and deployment pipelines.
 
-- Node.js v22.14.0 (as specified in `.nvmrc`)
-- npm (comes with Node.js)
-
-## Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/przeprogramowani/10x-astro-starter.git
-cd 10x-astro-starter
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Run the development server:
-
-```bash
-npm run dev
-```
-
-4. Build for production:
-
-```bash
-npm run build
-```
+## Getting Started Locally
+1. Ensure you have [Node.js](https://nodejs.org/) installed. The project requires Node.js version **22.14.0** as specified in the `.nvmrc` file.
+2. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+3. Navigate to the project directory:
+   ```sh
+   cd prezentex2
+   ```
+4. Install the dependencies:
+   ```sh
+   npm install
+   ```
+5. Run the development server:
+   ```sh
+   npm run dev
+   ```
+6. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) (or the port specified by the dev server).
 
 ## Available Scripts
+Within the project directory, you can run:
+- `npm run dev` - Starts the local development server.
+- `npm run build` - Builds the application for production.
+- `npm run preview` - Serves the production build locally.
+- `npm run astro` - Runs Astro CLI commands.
+- `npm run lint` - Runs ESLint to check for syntax and style issues.
+- `npm run lint:fix` - Automatically fixes linting issues.
+- `npm run format` - Formats the codebase using Prettier.
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Fix ESLint issues
+## Project Scope
+The current scope of Prezentex includes:
+- Adding new recipients with name and description.
+- Adding gift ideas with details such as name, price, link, and description.
+- Assigning gift ideas to specific recipients during creation or editing.
+- Editing and deleting entries for gift ideas and recipients.
+- Implementing a unified styling approach for modal windows.
+- User authentication and registration, including Google account integration (with row-level security).
 
-## Project Structure
+**Exclusions (MVP):**
+- Reminder systems or in-app notifications.
+- Advanced filtering or data analytics features.
+- Sharing gift ideas between users.
+- Mobile application support.
+- Extended options like birthday or name day tracking.
 
-```md
-.
-├── src/
-│   ├── layouts/    # Astro layouts
-│   ├── pages/      # Astro pages
-│   │   └── api/    # API endpoints
-│   ├── components/ # UI components (Astro & React)
-│   └── assets/     # Static assets
-├── public/         # Public assets
-```
-
-## AI Development Support
-
-This project is configured with AI development tools to enhance the development experience, providing guidelines for:
-
-- Project structure
-- Coding practices
-- Frontend development
-- Styling with Tailwind
-- Accessibility best practices
-- Astro and React guidelines
-
-### Cursor IDE
-
-The project includes AI rules in `.cursor/rules/` directory that help Cursor IDE understand the project structure and provide better code suggestions.
-
-### GitHub Copilot
-
-AI instructions for GitHub Copilot are available in `.github/copilot-instructions.md`
-
-### Windsurf
-
-The `.windsurfrules` file contains AI configuration for Windsurf.
-
-## Contributing
-
-Please follow the AI guidelines and coding practices defined in the AI configuration files when contributing to this project.
+## Project Status
+**MVP Stage:** The project is currently in the Minimum Viable Product stage, focusing on core functionality and iterative improvements based on user feedback.
 
 ## License
-
-MIT
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. 
