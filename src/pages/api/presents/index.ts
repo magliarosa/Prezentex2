@@ -2,7 +2,7 @@ import { z } from 'zod';
 import type { APIRoute } from 'astro';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database } from '../../../db/database.types';
-import type { CreatePresentCommand, PresentDto } from '../../../types';
+import type { CreatePresentCommand } from '../../../types';
 import { createPresent } from '../../../lib/services/presentService';
 
 export const prerender = false;
