@@ -13,7 +13,10 @@ export interface PersonDto {
 }
 
 // CreatePersonCommand is used with POST /persons to create a new person.
-export type CreatePersonCommand = Pick<PersonDto, 'name' | 'description'>;
+export type CreatePersonCommand = {
+  name: string;
+  description?: string;
+};
 
 // UpdatePersonCommand is used with PUT /persons/{id} to update an existing person. It is equivalent to the create command.
 export type UpdatePersonCommand = CreatePersonCommand;
