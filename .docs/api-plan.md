@@ -276,8 +276,14 @@ Supabase Auth will handle authentication endpoints directly.
 - **Success Codes**: 200 OK
 - **Error Codes**: 401 Unauthorized, 404 Not Found (if present doesn't exist), 500 Internal Server Error
 
-#### POST /persons/{personId}/presents/{presentId}
+#### POST /persons/{personId}/presents
 - **Description**: Assign a present to a person
+- **Request Payload**:
+  ```json
+  {
+    "presentId": 1
+  }
+  ```
 - **Success Codes**: 201 Created
 - **Error Codes**: 401 Unauthorized, 404 Not Found (if person or present doesn't exist), 409 Conflict (if assignment already exists), 500 Internal Server Error
 
