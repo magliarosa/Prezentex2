@@ -49,7 +49,16 @@ Supabase Auth will handle authentication endpoints directly.
     "name": "John Doe",
     "description": "My brother",
     "created_at": "2023-06-15T10:30:00Z",
-    "updated_at": "2023-06-15T10:30:00Z"
+    "updated_at": "2023-06-15T10:30:00Z",
+    "presents": [
+      {
+        "id": 1,
+        "name": "Book",
+        "description": "Fantasy novel",
+        "created_at": "2023-06-15T10:30:00Z",
+        "updated_at": "2023-06-15T10:30:00Z"
+      }
+    ]
   }
   ```
 - **Success Codes**: 200 OK
@@ -151,7 +160,19 @@ Supabase Auth will handle authentication endpoints directly.
     "description": "Latest model with health tracking",
     "tag": "electronics",
     "created_at": "2023-06-15T10:30:00Z",
-    "updated_at": "2023-06-15T10:30:00Z"
+    "updated_at": "2023-06-15T10:30:00Z",
+    "persons": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "description": "My younger brother"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "description": "My sister"
+      }
+    ]
   }
   ```
 - **Success Codes**: 200 OK
